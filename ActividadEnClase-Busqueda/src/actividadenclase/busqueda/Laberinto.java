@@ -37,9 +37,9 @@ public class Laberinto {
         }
         
         //Colocar obstaculos
-        setValor(3, 2, OBSTACULO);
-        setValor(2, 3, OBSTACULO);
         setValor(1, 2, OBSTACULO);
+        setValor(2, 2, OBSTACULO);
+        setValor(2, 3, OBSTACULO);
         
         //Especificar el estado inicial
         setValor(1, 1, (short)0);
